@@ -1,0 +1,8 @@
+{
+	auto_https off # For my use case, not needed!
+}
+
+:80 {	
+	root * "C:\Users\USER\Desktop\caddy\avb"
+	file_server browse
+}
